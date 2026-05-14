@@ -451,8 +451,8 @@
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
-    "@types/tinycolor2": "^1.4.1",
-    "tinycolor2": "^1.4.2",
+    "@types/tinycolor2": "^1.4.6",
+    "tinycolor2": "^1.6.0",
     "vsls": "^1.0.2594"
   },
   "husky": {
