@@ -2,6 +2,21 @@
 
 All notable changes to the code will be documented in this file.
 
+## 4.2.5
+
+### Docs & Infrastructure
+
+- Added `copilot-setup-steps.yml` for Copilot coding agent environment setup (mirrors CI: Node 20, npm ci, test-compile)
+- Added `paths-ignore` to CI workflow to skip builds for docs-only changes (markdown, images, issue templates)
+- Improved `CHANGELOG.md` pointer to reference authoritative changelog location at `docs/changelog/README.md`
+
+### Dependencies
+
+- Bumped fast-uri from 3.1.0 to 3.1.2
+- Bumped @types/webpack-env from 1.16.3 to 1.18.8
+- Bumped tinycolor2 and @types/tinycolor2
+- Reverted @types/mocha to 7.x (v10 removed ITestCallbackContext/MochaDone — requires TypeScript upgrade first)
+
 ## 4.2.4
 
 ### Features
