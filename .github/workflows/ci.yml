@@ -2,8 +2,20 @@ name: CI
 
 on:
   pull_request:
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - 'images/**'
+      - '.github/ISSUE_TEMPLATE/**'
+      - 'LICENSE'
   push:
     branches: [main]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - 'images/**'
+      - '.github/ISSUE_TEMPLATE/**'
+      - 'LICENSE'
 
 jobs:
   build:
